@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T03:22:22.463Z" agent="5.0 (Windows)" etag="3Cnnn4PZXBXhYgkE6IjP" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-16T03:34:48.892Z" agent="5.0 (Windows)" etag="nrNP96vhvULQTO48YaEK" version="20.0.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Beranda">
-    <mxGraphModel dx="1240" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2170" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -337,21 +337,65 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gWtV_FAbdbcEUiTjcpdg" name="Tabs Kriteria">
-    <mxGraphModel dx="868" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2170" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4xU8Lf09Qavb9HVxwHv6-1" value="Kriteria" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.5;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;spacing=-50;" vertex="1" parent="1">
-          <mxGeometry x="80" y="40" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Lz-nU8pjsx6BBqMfXkFG-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="80" y="150" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Lz-nU8pjsx6BBqMfXkFG-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4xU8Lf09Qavb9HVxwHv6-1" target="Lz-nU8pjsx6BBqMfXkFG-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="180" as="sourcePoint" />
-            <mxPoint x="450" y="130" as="targetPoint" />
+        <mxCell id="kexivFfHdj0KMRnZoMmz-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4xU8Lf09Qavb9HVxwHv6-1" target="pK4Fd-J4nKBPFWi1sl_e-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="164" as="sourcePoint" />
+            <mxPoint x="380" y="234" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4xU8Lf09Qavb9HVxwHv6-1" value="Kriteria" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.5;spacingLeft=0;spacingRight=0;spacingTop=0;spacingBottom=0;spacing=-50;" vertex="1" parent="1">
+          <mxGeometry x="350" y="94" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pK4Fd-J4nKBPFWi1sl_e-1" value="Mencari data sesuai dengan kriteria" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="194" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IUgKC2Q7eZdKqHdtxyUD-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pK4Fd-J4nKBPFWi1sl_e-2" target="IUgKC2Q7eZdKqHdtxyUD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pK4Fd-J4nKBPFWi1sl_e-2" value="Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="294" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pK4Fd-J4nKBPFWi1sl_e-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.502;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.509;exitY=1.028;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pK4Fd-J4nKBPFWi1sl_e-1" target="pK4Fd-J4nKBPFWi1sl_e-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="264" as="sourcePoint" />
+            <mxPoint x="380" y="284" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUgKC2Q7eZdKqHdtxyUD-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="IUgKC2Q7eZdKqHdtxyUD-2" source="IUgKC2Q7eZdKqHdtxyUD-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="524" as="sourcePoint" />
+            <mxPoint x="380" y="544" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="494" />
+              <mxPoint x="380" y="494" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUgKC2Q7eZdKqHdtxyUD-5" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IUgKC2Q7eZdKqHdtxyUD-1">
+          <mxGeometry x="0.8333" relative="1" as="geometry">
+            <mxPoint x="-10" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUgKC2Q7eZdKqHdtxyUD-2" value="Menampilkan dokumen sesuai dengan kriteria" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="524" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IUgKC2Q7eZdKqHdtxyUD-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IUgKC2Q7eZdKqHdtxyUD-3" target="IUgKC2Q7eZdKqHdtxyUD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IUgKC2Q7eZdKqHdtxyUD-10" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IUgKC2Q7eZdKqHdtxyUD-9">
+          <mxGeometry x="-0.6247" relative="1" as="geometry">
+            <mxPoint x="7" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUgKC2Q7eZdKqHdtxyUD-3" value="Data ditemukan?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;aspect=fixed;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="335" y="394" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IUgKC2Q7eZdKqHdtxyUD-8" value="Menampilkan tulisan data tidak ditemukan" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="409" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
